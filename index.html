@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Project Which Uses Local Storage</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset class="flex">
+        <legend>User Data</legend>
+        <div>
+          <label for="stdName">Student Name:</label>
+          <input
+            id="stdName"
+            type="text"
+            placeholder="Enter Your Name Here......."
+          />
+        </div>
+        <div>
+          <label for="stdRollNo">ROLL No:</label>
+          <input
+            id="stdRollNo"
+            type="text"
+            placeholder="Enter Your Name Here......."
+          />
+        </div>
+        <div>
+          <label for="stdCollegeName">College Name:</label>
+          <input
+            id="stdCollegeName"
+            type="text"
+            placeholder="Enter Your Name Here......."
+          />
+        </div>
+        <div>
+          <label for="stdStudyField">Study Field:</label>
+          <input
+            id="stdStudyField"
+            type="text"
+            placeholder="Enter Your Name Here......."
+          />
+        </div>
+        <div>
+          <label for="stdPassword">Password:</label>
+          <input
+            id="stdPassword"
+            type="password"
+            placeholder="Enter Your Name Here......."
+          />
+        </div>
+        <input type="submit" id="submitBtn" />
+      </fieldset>
+    </form>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basic Project Which Uses Local Storage</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-100">
+    <form
+      class="max-w-md mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mt-10"
+    >
+      <fieldset>
+        <legend class="text-lg font-bold mb-6">User Data</legend>
+        <div class="mb-4">
+          <label
+            class="block text-gray-700 text-sm font-bold mb-2"
+            for="stdName"
+            >Student Name:</label
+          >
+          <input
+            id="stdName"
+            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            placeholder="Enter Your Name Here...."
+          />
+        </div>
+        <div class="mb-4">
+          <label
+            class="block text-gray-700 text-sm font-bold mb-2"
+            for="stdRollNo"
+            >ROLL No:</label
+          >
+          <input
+            id="stdRollNo"
+            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            placeholder="Enter Your Roll No Here...."
+          />
+        </div>
+        <div class="mb-4">
+          <label
+            class="block text-gray-700 text-sm font-bold mb-2"
+            for="stdCollegeName"
+            >College Name:</label
+          >
+          <input
+            id="stdCollegeName"
+            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            placeholder="Enter Your College Name Here...."
+          />
+        </div>
+        <div class="mb-4">
+          <label
+            class="block text-gray-700 text-sm font-bold mb-2"
+            for="stdStudyField"
+            >Study Field:</label
+          >
+          <input
+            id="stdStudyField"
+            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="text"
+            placeholder="Enter Your Study Field Here...."
+          />
+        </div>
+        <div class="mb-4">
+          <label
+            class="block text-gray-700 text-sm font-bold mb-2"
+            for="stdPassword"
+            >Password:</label
+          >
+          <input
+            id="stdPassword"
+            class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            type="password"
+            placeholder="Enter Your Password Here...."
+          />
+        </div>
+        <div class="mb-4">
+          <input
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline cursor-pointer"
+            type="submit"
+            value="Submit"
+            id="submitButton"
+          />
+        </div>
+      </fieldset>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
