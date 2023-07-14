@@ -1,60 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic Project Which Uses Local Storage</title>
-  </head>
-  <body>
-    <form action="">
-      <fieldset class="flex">
-        <legend>User Data</legend>
-        <div>
-          <label for="stdName">Student Name:</label>
-          <input
-            id="stdName"
-            type="text"
-            placeholder="Enter Your Name Here......."
-          />
-        </div>
-        <div>
-          <label for="stdRollNo">ROLL No:</label>
-          <input
-            id="stdRollNo"
-            type="text"
-            placeholder="Enter Your Name Here......."
-          />
-        </div>
-        <div>
-          <label for="stdCollegeName">College Name:</label>
-          <input
-            id="stdCollegeName"
-            type="text"
-            placeholder="Enter Your Name Here......."
-          />
-        </div>
-        <div>
-          <label for="stdStudyField">Study Field:</label>
-          <input
-            id="stdStudyField"
-            type="text"
-            placeholder="Enter Your Name Here......."
-          />
-        </div>
-        <div>
-          <label for="stdPassword">Password:</label>
-          <input
-            id="stdPassword"
-            type="password"
-            placeholder="Enter Your Name Here......."
-          />
-        </div>
-        <input type="submit" id="submitBtn" />
-      </fieldset>
-    </form>
-  </body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -66,7 +9,20 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-100">
+  <body class="transition-colors duration-300">
+    <!-- <div
+      class="bg-green-400 p-3 font-semibold font-sans inline-block absolute top-1 right-1"
+    >
+      Form Submitted Successfully
+    </div> -->
+    <div class="darkMode absolute right-0 mr-1 top-5">
+      <button
+        class="p-2 bg-black text-white font-semibold rounded-md"
+        id="themeBtn"
+      >
+        Switch To Dark Mode
+      </button>
+    </div>
     <form
       class="max-w-md mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mt-10"
     >
@@ -147,6 +103,7 @@
         </div>
       </fieldset>
     </form>
+
     <script src="script.js"></script>
   </body>
 </html>
