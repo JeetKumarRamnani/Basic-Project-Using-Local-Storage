@@ -7,7 +7,6 @@ const stdPassword = d.querySelector("#stdPassword");
 const submitBtn = d.querySelector("#submitButton");
 const themeBtn = d.querySelector("#themeBtn");
 console.log(submitBtn);
-
 const studentData = {
   stdName,
   stdRollNo,
@@ -17,14 +16,14 @@ const studentData = {
 };
 
 themeBtn.addEventListener("click", () => {
-  const darkMode = document.body.classList.toggle("bg-black");
+  const darkMode = document.body.classList.toggle("bg-gray-100");
   // document.body.classList.add("transition")
-  themeBtn.classList.toggle("bg-white");
+  themeBtn.classList.toggle("bg-blue-500");
   themeBtn.classList.toggle("text-white");
 
   themeBtn.textContent = darkMode
-    ? "Switch To Light Mode"
-    : "Switch To Dark Mode";
+    ? "Switch To Dark Mode"
+    : "Switch To Light Mode";
 });
 
 submitBtn.addEventListener("click", function (e) {
